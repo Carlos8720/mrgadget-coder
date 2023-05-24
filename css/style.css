@@ -138,21 +138,10 @@ header h1 {
         display: none;
     }
     
-    nav label {
-        box-sizing: border-box;
-        display: inline-block;
-        border: 1px solid black;
-        border-radius: 5px;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        font-weight: bold;
-        text-align: center;
-        user-select: none;
-        
-    }
+    
     
     .menu-button {
+        box-sizing: border-box;
         color: darkgoldenrod;
         text-align: center;
         line-height: 6vh;
@@ -160,7 +149,10 @@ header h1 {
         margin: 1vh;
         height: 6vh;
         width: 6vh;
-        border: 1px solid goldenrod
+        border: 1px solid goldenrod;
+        border-radius: 5px;
+        user-select: none;
+        font-weight: bold;
     }
         
     nav ul li a{
@@ -205,11 +197,14 @@ header h1 {
     
 }
     
-.hero div {
+.hero-primero {
     margin-left: 25px;
     
 }        
 
+.hero-segundo{
+    margin-left: 25px;
+}
     
 .hero h2 {
     font-family:'Poppins', sans-serif ;
@@ -450,9 +445,9 @@ header h1 {
 
 
 }
-       
+    
         
-       
+
     
     
 /*----------------FOOTER------------------------------------*/
@@ -470,7 +465,7 @@ footer {
 }
 
 
-footer div img {
+footer .footer-ubicacion div img {
     background-color: darkgoldenrod;
     
 }
@@ -645,7 +640,7 @@ footer .footer-logo img {
         grid-template-columns: 1fr;
     }
 
-    .pasos-numero div ul {
+    .pasos-numeros div ul {
         text-align: center;
         
     }
@@ -769,10 +764,7 @@ footer .footer-logo img {
     
 }
 
-.services-empleados div p {
-    margin: 0 30px 0 30px;
-    
-}
+
 /* -----------------MEDIA QUERY------------ */
 @media  screen and (max-width:1000px) {
     .services-empleados {
@@ -780,6 +772,7 @@ footer .footer-logo img {
     }
     
 }
+/* fin mediaquery */
 
 .services-galeria {
     width: 100%;
@@ -827,7 +820,7 @@ footer .footer-logo img {
     background-color: rgb(0, 58, 0);
     color: white;
 }
-
+/* media query */
 @media screen and (max-width:1000px) {
     .services-galeria {
         
@@ -843,7 +836,7 @@ footer .footer-logo img {
     }
     
 }
-    
+    /* fin de media query */
 
 
 .garantia {
@@ -919,7 +912,9 @@ footer .footer-logo img {
     color: bisque;
     
 }    
-    
+
+
+/* PAG CONTACTO------------------ */
 .contacto-titulo {
     width: 100%;
     height: 200px;

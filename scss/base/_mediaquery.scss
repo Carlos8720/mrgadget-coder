@@ -1,0 +1,335 @@
+@media screen and (max-width: 1220px) {
+    .elegirnos {
+        display: flex;
+        justify-content: center;
+
+        .elegirnos-titulo {
+            display: none;
+        }
+
+        .elegirnos-imagen {
+            display: none;
+        }
+
+        .elegirnos-opciones {
+            h3 {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .services {
+        .services-empleados {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .services-galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 945px) {
+    header {
+        flex-direction: column;
+        height: auto;
+
+        h1 {
+            font-weight: 500;
+            font-size: 25px;
+        }
+
+        a {
+            order: -1;
+        }
+    }
+
+}
+
+@media screen and (max-width:745px) {
+    .elegirnos {
+        .elegirnos-opciones {
+            width: 100%;
+
+            h3 {
+                width: 100%;
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            div {
+                text-align: center;
+
+                h4 {
+                    margin: 30px;
+
+                }
+
+                p {
+                    display: none;
+
+                }
+            }
+        }
+    }
+}
+
+footer {
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .footer-ubicacion {
+        order: 4;
+    }
+
+    .footer-seguinos {
+        margin-top: 20px;
+        order: 3;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+    header {
+        h1 {
+            display: none;
+        }
+
+        a {
+            img {
+                width: 170px;
+            }
+        }
+    }
+
+    nav {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+        height: 100%;
+
+        h2 {
+            display: block;
+            color: darkgoldenrod;
+        }
+
+        input {
+            display: none;
+
+            &:checked~ul {
+                display: block;
+                padding: 50px;
+            }
+        }
+
+        .menu-button {
+            box-sizing: border-box;
+            color: darkgoldenrod;
+            text-align: center;
+            line-height: 6vh;
+            display: inline-block;
+            margin: 1vh;
+            height: 6vh;
+            width: 6vh;
+            border: 1px solid goldenrod;
+            border-radius: 5px;
+            user-select: none;
+            font-weight: bold;
+        }
+
+        ul {
+            display: none;
+
+            li {
+                a {
+                    color: darkgoldenrod;
+                }
+            }
+        }
+    }
+
+    /*Page comofunciona*/
+    main {
+        .funcionamiento {
+            h2 {
+                font-size: 40px;
+
+            }
+
+            p {
+                font-size: 20px;
+                text-align: center;
+
+            }
+        }
+
+        .pasos {
+            .pasos-numeros {
+                grid-template-columns: 1fr;
+
+                div {
+                    ul {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .seguridad {
+            grid-template-columns: 1fr;
+
+            .seguridad-items {
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    main {
+        .hero {
+            .hero-primero {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                justify-content: space-around;
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 35px;
+                    text-align: center;
+                }
+
+                p {
+                    font-size: 25px;
+                }
+            }
+
+            .hero-segundo {
+                display: none;
+
+            }
+        }
+    }
+
+
+    /*pag servicios*/
+    .services-galeria {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    header a img {
+        width: 170px;
+    }
+
+
+}

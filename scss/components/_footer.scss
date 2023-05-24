@@ -1,0 +1,58 @@
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .footer-ubicacion{
+        div{
+            display: flex;
+            margin: 30px;
+            img{
+                background-color: darkgoldenrod;
+            }
+            p{
+    
+            }
+        }
+
+
+    }
+    .footer-mapa{
+        margin-right: 30px;
+   
+        div{
+            display: flex;
+            flex-direction: column;
+            h4{
+
+            }
+            a{
+                color: goldenrod;
+
+            }
+        }
+
+    }
+    .footer-seguinos{
+        h4{
+
+        }
+        img{
+            
+        }
+
+    }
+    .footer-logo{
+        a{
+            img{
+                background-color: black;
+
+            }
+        }
+
+    }
+}

@@ -1,0 +1,592 @@
+/*-----------index----------------*/
+main {
+    .hero {
+        background-image: url(../img/orden.jpg);
+        width: 100%;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .hero-primero {
+            margin-left: 25px;
+
+            h2 {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 30px;
+                font-style: italic;
+            }
+
+            p {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+            }
+
+        }
+
+        .hero-segundo {
+            margin-left: 25px;
+
+            h2 {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 30px;
+                font-style: italic;
+            }
+
+            p {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+            }
+
+            ul {
+                list-style-position: inside;
+                list-style-type: circle;
+                font-family: 'Poppins', sans-serif;
+                font-weight: lighter;
+
+                li {}
+            }
+
+        }
+
+    }
+
+
+    /*section servcios*/
+
+
+    .servicios {
+        text-align: center;
+        flex-wrap: wrap;
+
+        .servicios-titulo {
+            h2 {
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+                background-color: darkgoldenrod;
+                margin-bottom: 10px;
+                color: black;
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            a {
+                width: 100%;
+                font-family: 'Poppins', sans-serif;
+                background-color: rgb(99, 99, 99);
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                border-radius: 3px;
+                padding: 2px;
+                font-weight: 600;
+                font-size: 20px;
+                transition: 1s;
+
+                &:hover {
+                    padding: 3px;
+                    font-size: 23px;
+                }
+            }
+        }
+
+
+        .servicios-tipos {
+            div {
+                width: 230px;
+                border: 2px rgb(99, 99, 99) solid;
+                text-align: center;
+                display: inline-block;
+                margin: 10px 20px 5px 20px;
+                box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+
+                img {
+                    width: 100%;
+                }
+
+                a {
+                    color: rgb(99, 99, 99);
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    transition: 0.5s;
+
+                    &:hover {
+                        color: darkgoldenrod;
+                    }
+                }
+            }
+        }
+    }
+
+    /*section elegirnos*/
+
+
+    .elegirnos {
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(99, 99, 99);
+        display: grid;
+        grid-template-columns: 10% 50% 40%;
+        align-items: center;
+        margin-top: 20px;
+
+        .elegirnos-titulo {
+            h2 {
+                color: rgb(99, 99, 99);
+                background-color: white;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 600;
+            }
+        }
+
+        .elegirnos-imagen {
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .elegirnos-opciones {
+            h3 {
+                text-align: center;
+                color: rgb(99, 99, 99);
+                background-color: white;
+                font-size: 25px;
+                font-weight: 600;
+            }
+
+            div {
+                text-align: center;
+                color: white;
+                margin: 15px;
+
+                h4 {
+                    border: 2px white solid;
+                    font-size: 18px;
+                }
+
+                p {}
+            }
+
+        }
+
+    }
+
+}
+
+/*PAGE COMOFUNCIONA----------------*/
+
+main {
+    .funcionamiento {
+        background-image: url(../img/comofuncionapage.png);
+        background-color: rgb(50, 50, 50);
+        background-blend-mode: soft-light;
+        width: 100%;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+
+        h2 {
+            font-weight: 600;
+            font-size: 50px;
+            border: 2px white solid;
+            padding: 2px;
+        }
+
+        p {
+            font-size: 25px;
+            text-align: center;
+
+        }
+
+        a {
+            background-color: white;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(30, 30, 30);
+            transition: 1s;
+            border-radius: 20px;
+
+            &:hover {
+                color: white;
+                background-color: black;
+            }
+
+        }
+    }
+
+    /*section pasos*/
+    .pasos {
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+
+        h2 {
+            margin: 20px;
+        }
+
+        .pasos-numeros {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-decoration: none;
+            flex-wrap: wrap;
+
+            div {
+                img {}
+
+                h3 {}
+
+                ul {
+                    list-style-type: none;
+                    margin-bottom: 30px;
+
+                    li {}
+                }
+
+                a {
+                    color: darkgoldenrod;
+                    border: 2px black solid;
+                    font-size: 20px;
+                    padding: 2px;
+                    transition: 1s;
+                    border-radius: 10px;
+
+                    &:hover {
+                        background-color: black;
+                        padding: 3px;
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+
+                    &:active {
+                        background-color: black;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+/*SECTION SEGURIDAD*/
+
+.seguridad {
+    background-color: darkgoldenrod;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    .seguridad-titulo {
+        h2 {
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+
+    .seguridad-items {
+        div {
+            margin: 1rem;
+
+            h3 {}
+
+            p {}
+        }
+    }
+}
+
+/*PAGE SERVICIOS------------------*/
+
+main {
+    .carrusel {
+        width: 100%;
+        height: 100%;
+
+        #carouselExampleControls {
+            width: 100%;
+            height: 100%;
+
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        width: 100%;
+                        height: 400px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .services {
+        h3 {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 600;
+            color: rgb(0, 58, 0);
+
+        }
+
+        .services-empleados {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 50px;
+
+            .services-empleada {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            h4 {
+                text-align: center;
+                color: rgb(0, 58, 0);
+
+            }
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 10px 0 30px 30px;
+
+                img {}
+
+                ul {
+                    li {}
+                }
+            }
+        }
+
+        .services-mantenimiento {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h4 {
+                text-align: center;
+                color: rgb(0, 58, 0);
+
+            }
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px 0 30px 20px;
+
+                img {}
+
+                ul {
+                    li {}
+                }
+            }
+        }
+
+    }
+
+    .services-galeria {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 23px;
+        flex-wrap: wrap;
+
+
+
+        div {
+            position: relative;
+            box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+            flex-wrap: wrap;
+
+            img {
+                width: 100%;
+                height: 100%;
+                flex-wrap: wrap;
+
+            }
+
+            a {
+                &:hover {
+                    background-color: rgb(0, 58, 0);
+                    color: white;
+                }
+
+                h4 {
+                    width: 100%;
+                    position: absolute;
+                    bottom: 50px;
+                    color: rgb(0, 58, 0);
+                    background-color: white;
+                    text-align: center;
+                    transition: 1s;
+
+                }
+            }
+        }
+    }
+
+    .garantia {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 58, 0);
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            background-color: white;
+            color: rgb(0, 58, 0);
+            margin-top: 30px;
+
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 30px;
+
+        }
+    }
+}
+
+/*PAG UNETEALEQUIPO*/
+
+main {
+    .equipo {
+        background-image: url(../img/equipo\ de\ trabajo.png);
+        width: 100%;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: soft-light;
+        background-color: rgba(1, 1, 1, 0.73);
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        h2 {
+            text-align: center;
+            color: bisque;
+
+        }
+
+        ul {
+            li {
+                color: bisque;
+                margin: 30px;
+
+            }
+        }
+    }
+
+    .equipo-completo {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        align-items: center;
+        background-color: rgba(54, 53, 53, 0.886);
+
+        .equipo-titulo {
+            text-align: center;
+            color: rgba(54, 53, 53, 0.886);
+            color: bisque;
+
+            h3 {}
+
+            p {}
+
+        }
+
+        .equipo-formulario {
+            margin-left: 50px;
+            color: bisque;
+        }
+    }
+}
+
+/*PAg CONTACTO-------------*/
+
+main {
+    .contacto-titulo {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: rgb(99, 99, 99);
+
+        h2 {}
+
+        p {
+            font-size: 20px;
+
+        }
+    }
+
+    .contacto-formulario {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        color:rgb(99, 99, 99) ;
+        background-color: black;
+        .contacto-form {
+            order: 2;
+        }
+
+        .contacto-datos {
+            margin-left: 40px;
+            div {
+                h4 {
+                    img {
+                        background-color: rgb(99, 99, 99);
+                    }
+                }
+
+                p {}
+            }
+        }
+    }
+
+    .contacto-ubicacion {
+        background-color: black;
+        text-align: center;
+        iframe {}
+    }
+}
