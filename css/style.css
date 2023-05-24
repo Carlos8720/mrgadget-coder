@@ -489,9 +489,17 @@ footer .footer-mapa div a{
     color: goldenrod;
 }
 
+.footer-seguinos img{
+    background-color:  darkgoldenrod;
+    
+
+}
+
 footer .footer-logo img {
     background-color: black;
 }
+
+
 
 /* -----------------------MEDIA QUERY------------------------ */
 
