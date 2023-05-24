@@ -51,6 +51,11 @@ footer {
         a{
             img{
                 background-color: black;
+                transition: 0.5s;
+                &:hover:{
+                    transform: rotateX(360deg);
+                }
+
 
             }
         }

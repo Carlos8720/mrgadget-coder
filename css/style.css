@@ -36,7 +36,14 @@ header h1 {
     border: 4px rgb(99, 99, 99) solid;
     padding: 5px;
 }    
- 
+
+header a {
+    transition: 1s;
+}
+
+header a:hover{
+    transform: rotateY(360deg);
+}
 
 /* !----------------------------NAV--------------------------------------------------- */
 
@@ -495,8 +502,12 @@ footer .footer-mapa div a{
 
 }
 
-footer .footer-logo img {
+footer .footer-logo a img {
     background-color: black;
+    transition: 0.5s;
+}
+.footer-logo a img:hover{
+    transform: rotatex(360deg);
 }
 
 
@@ -821,7 +832,7 @@ footer .footer-logo img {
     color: rgb(0, 58, 0);
     background-color: white;
     text-align: center;
-    transition: 1s;
+    transition: 1.5s;
 }
     
 .services-galeria div a :hover {
