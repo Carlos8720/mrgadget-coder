@@ -1,37 +1,48 @@
 @media screen and (max-width: 1220px) {
-    .elegirnos {
-        display: flex;
-        justify-content: center;
+    main {
+        .elegirnos {
+            display: flex;
+            justify-content: center;
 
-        .elegirnos-titulo {
-            display: none;
-        }
+            .elegirnos-titulo {
+                display: none;
+            }
 
-        .elegirnos-imagen {
-            display: none;
-        }
+            .elegirnos-imagen {
+                display: none;
 
-        .elegirnos-opciones {
-            h3 {
-                margin-top: 30px;
+            }
+
+            .elegirnos-opciones {
+                h3 {
+                    margin-top: 30px;
+                }
             }
         }
     }
 }
 
 
-@media  screen and (max-width: 1000px){
 
-    .services-empleados {
-        
-        grid-template-columns: 1fr;
+
+@media screen and (max-width: 1000px) {
+    main {
+        .services {
+            .services-empleados {
+                grid-template-columns: 1fr;
+                
+            }
+        }
+
+        .services-galeria {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
-    
-    .services-galeria {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
 }
+
+
+
+
 
 
 
@@ -61,27 +72,30 @@
 }
 
 @media screen and (max-width:745px) {
-    .elegirnos {
-        .elegirnos-opciones {
-            width: 100%;
+    main {
 
-            h3 {
+        .elegirnos {
+            .elegirnos-opciones {
                 width: 100%;
-                text-align: center;
-                margin-top: 30px;
-            }
 
-            div {
-                text-align: center;
-
-                h4 {
-                    margin: 30px;
-
+                h3 {
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 30px;
                 }
 
-                p {
-                    display: none;
+                div {
+                    text-align: center;
 
+                    h4 {
+                        margin: 30px;
+
+                    }
+
+                    p {
+                        display: none;
+
+                    }
                 }
             }
         }
@@ -248,11 +262,11 @@
 
             }
         }
-    }
-
-
-    /*pag servicios*/
-    .services-galeria {
-        grid-template-columns: 1fr;
+        
+        
+        /*pag servicios*/
+        .services-galeria {
+            grid-template-columns: 1fr;
+        }
     }
 }

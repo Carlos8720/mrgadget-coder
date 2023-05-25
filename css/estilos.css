@@ -442,20 +442,20 @@ footer {
       transform: rotateX(360deg); }
 
 @media screen and (max-width: 1220px) {
-  .elegirnos {
+  main .elegirnos {
     display: flex;
     justify-content: center; }
-    .elegirnos .elegirnos-titulo {
+    main .elegirnos .elegirnos-titulo {
       display: none; }
-    .elegirnos .elegirnos-imagen {
+    main .elegirnos .elegirnos-imagen {
       display: none; }
-    .elegirnos .elegirnos-opciones h3 {
+    main .elegirnos .elegirnos-opciones h3 {
       margin-top: 30px; } }
 
 @media screen and (max-width: 1000px) {
-  .services-empleados {
+  main .services .services-empleados {
     grid-template-columns: 1fr; }
-  .services-galeria {
+  main .services-galeria {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 945px) {
@@ -469,17 +469,17 @@ footer {
       order: -1; } }
 
 @media screen and (max-width: 745px) {
-  .elegirnos .elegirnos-opciones {
+  main .elegirnos .elegirnos-opciones {
     width: 100%; }
-    .elegirnos .elegirnos-opciones h3 {
+    main .elegirnos .elegirnos-opciones h3 {
       width: 100%;
       text-align: center;
       margin-top: 30px; }
-    .elegirnos .elegirnos-opciones div {
+    main .elegirnos .elegirnos-opciones div {
       text-align: center; }
-      .elegirnos .elegirnos-opciones div h4 {
+      main .elegirnos .elegirnos-opciones div h4 {
         margin: 30px; }
-      .elegirnos .elegirnos-opciones div p {
+      main .elegirnos .elegirnos-opciones div p {
         display: none; }
   footer {
     height: auto;
@@ -544,20 +544,21 @@ footer {
       text-align: center; } }
 
 @media screen and (max-width: 600px) {
-  main .hero .hero-primero {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-around; }
-    main .hero .hero-primero h2 {
-      font-weight: 700;
-      font-size: 35px;
-      text-align: center; }
-    main .hero .hero-primero p {
-      font-size: 25px; }
-  main .hero .hero-segundo {
-    display: none; }
-  /*pag servicios*/
-  .services-galeria {
-    grid-template-columns: 1fr; } }
+  main {
+    /*pag servicios*/ }
+    main .hero .hero-primero {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-around; }
+      main .hero .hero-primero h2 {
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center; }
+      main .hero .hero-primero p {
+        font-size: 25px; }
+    main .hero .hero-segundo {
+      display: none; }
+    main .services-galeria {
+      grid-template-columns: 1fr; } }
