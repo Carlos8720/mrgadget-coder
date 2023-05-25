@@ -23,6 +23,10 @@ header {
     font-style: italic;
     border: 4px #636363 solid;
     padding: 5px; }
+  header a {
+    transition: 1s; }
+    header a:hover {
+      transform: rotateY(360deg); }
 
 nav {
   width: 100%;
@@ -48,124 +52,365 @@ nav {
         color: #636363; }
 
 /*-----------index----------------*/
+.hero {
+  background-image: url(../img/orden.jpg);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  .hero .hero-primero {
+    margin-left: 25px; }
+    .hero .hero-primero h2 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 30px;
+      font-style: italic; }
+    .hero .hero-primero p {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 20px; }
+  .hero .hero-segundo {
+    margin-left: 25px; }
+    .hero .hero-segundo h2 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 30px;
+      font-style: italic; }
+    .hero .hero-segundo p {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 20px; }
+    .hero .hero-segundo ul {
+      list-style-position: inside;
+      list-style-type: circle;
+      font-family: 'Poppins', sans-serif;
+      font-weight: lighter; }
+
+.servicios {
+  text-align: center;
+  flex-wrap: wrap; }
+  .servicios .servicios-titulo h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: darkgoldenrod;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px; }
+  .servicios .servicios-titulo a {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #636363;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    padding: 2px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 1s; }
+    .servicios .servicios-titulo a:hover {
+      padding: 3px;
+      font-size: 23px; }
+  .servicios .servicios-tipos div {
+    width: 230px;
+    border: 2px #636363 solid;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 20px 5px 20px;
+    box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75); }
+    .servicios .servicios-tipos div img {
+      width: 100%; }
+    .servicios .servicios-tipos div a {
+      color: #636363;
+      font-size: 20px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.5s; }
+      .servicios .servicios-tipos div a:hover {
+        color: darkgoldenrod; }
+
+/*section elegirnos*/
+.elegirnos {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #636363;
+  display: grid;
+  grid-template-columns: 10% 50% 40%;
+  align-items: center;
+  margin-top: 20px; }
+  .elegirnos .elegirnos-titulo h2 {
+    color: #636363;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600; }
+  .elegirnos .elegirnos-imagen img {
+    width: 100%;
+    object-fit: cover; }
+  .elegirnos .elegirnos-opciones h3 {
+    text-align: center;
+    color: #636363;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 600; }
+  .elegirnos .elegirnos-opciones div {
+    text-align: center;
+    color: white;
+    margin: 15px; }
+    .elegirnos .elegirnos-opciones div h4 {
+      border: 2px white solid;
+      font-size: 18px; }
+
+/*PAGE COMOFUNCIONA----------------*/
 main {
-  /*section servcios*/
-  /*section elegirnos*/ }
-  main .hero {
-    background-image: url(../img/orden.jpg);
+  /*section pasos*/ }
+  main .funcionamiento {
+    background-image: url(../img/comofuncionapage.png);
+    background-color: #323232;
+    background-blend-mode: soft-light;
     width: 100%;
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap; }
-    main .hero .hero-primero {
-      margin-left: 25px; }
-      main .hero .hero-primero h2 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        font-size: 30px;
-        font-style: italic; }
-      main .hero .hero-primero p {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        font-size: 20px; }
-    main .hero .hero-segundo {
-      margin-left: 25px; }
-      main .hero .hero-segundo h2 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        font-size: 30px;
-        font-style: italic; }
-      main .hero .hero-segundo p {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        font-size: 20px; }
-      main .hero .hero-segundo ul {
-        list-style-position: inside;
-        list-style-type: circle;
-        font-family: 'Poppins', sans-serif;
-        font-weight: lighter; }
-  main .servicios {
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly; }
+    main .funcionamiento h2 {
+      font-weight: 600;
+      font-size: 50px;
+      border: 2px white solid;
+      padding: 2px; }
+    main .funcionamiento p {
+      font-size: 25px;
+      text-align: center; }
+    main .funcionamiento a {
+      background-color: white;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #1e1e1e;
+      transition: 1s;
+      border-radius: 20px; }
+      main .funcionamiento a:hover {
+        color: white;
+        background-color: black; }
+  main .pasos {
+    width: 100%;
     text-align: center;
     flex-wrap: wrap; }
-    main .servicios .servicios-titulo h2 {
-      font-family: 'Poppins', sans-serif;
-      text-align: center;
-      background-color: darkgoldenrod;
-      margin-bottom: 10px;
-      color: black;
-      font-weight: 700;
-      font-size: 20px; }
-    main .servicios .servicios-titulo a {
-      width: 100%;
-      font-family: 'Poppins', sans-serif;
-      background-color: #636363;
-      color: white;
+    main .pasos h2 {
+      margin: 20px; }
+    main .pasos .pasos-numeros {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
       text-decoration: none;
-      text-align: center;
-      border-radius: 3px;
-      padding: 2px;
-      font-weight: 600;
-      font-size: 20px;
-      transition: 1s; }
-      main .servicios .servicios-titulo a:hover {
-        padding: 3px;
-        font-size: 23px; }
-    main .servicios .servicios-tipos div {
-      width: 230px;
-      border: 2px #636363 solid;
-      text-align: center;
-      display: inline-block;
-      margin: 10px 20px 5px 20px;
-      box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75); }
-      main .servicios .servicios-tipos div img {
-        width: 100%; }
-      main .servicios .servicios-tipos div a {
-        color: #636363;
+      flex-wrap: wrap; }
+      main .pasos .pasos-numeros div ul {
+        list-style-type: none;
+        margin-bottom: 30px; }
+      main .pasos .pasos-numeros div a {
+        color: darkgoldenrod;
+        border: 2px black solid;
         font-size: 20px;
-        font-weight: 600;
-        text-decoration: none;
-        transition: 0.5s; }
-        main .servicios .servicios-tipos div a:hover {
-          color: darkgoldenrod; }
-  main .elegirnos {
+        padding: 2px;
+        transition: 1s;
+        border-radius: 10px; }
+        main .pasos .pasos-numeros div a:hover {
+          background-color: black;
+          padding: 3px;
+          font-size: 25px;
+          font-weight: 400; }
+        main .pasos .pasos-numeros div a:active {
+          background-color: black; }
+
+/*SECTION SEGURIDAD*/
+.seguridad {
+  background-color: darkgoldenrod;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center; }
+  .seguridad .seguridad-titulo h2 {
+    text-align: center;
+    font-size: 30px; }
+  .seguridad .seguridad-items div {
+    margin: 1rem; }
+
+/*PAGE SERVICIOS------------------*/
+main .carrusel {
+  width: 100%;
+  height: 100%; }
+  main .carrusel #carouselExampleControls {
     width: 100%;
-    font-family: 'Poppins', sans-serif;
-    background-color: #636363;
-    display: grid;
-    grid-template-columns: 10% 50% 40%;
-    align-items: center;
-    margin-top: 20px; }
-    main .elegirnos .elegirnos-titulo h2 {
-      color: #636363;
-      background-color: white;
-      text-align: center;
-      font-size: 30px;
-      font-weight: 600; }
-    main .elegirnos .elegirnos-imagen img {
+    height: 100%; }
+    main .carrusel #carouselExampleControls .carousel-inner .carousel-item img {
       width: 100%;
+      height: 400px;
       object-fit: cover; }
-    main .elegirnos .elegirnos-opciones h3 {
-      text-align: center;
-      color: #636363;
+
+main .services h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #003a00; }
+
+main .services .services-empleados {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px; }
+  main .services .services-empleados .services-empleada {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  main .services .services-empleados h4 {
+    text-align: center;
+    color: #003a00; }
+  main .services .services-empleados div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 30px 30px; }
+
+main .services .services-mantenimiento {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  main .services .services-mantenimiento h4 {
+    text-align: center;
+    color: #003a00; }
+  main .services .services-mantenimiento div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 30px 20px; }
+
+main .services-galeria {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 23px;
+  flex-wrap: wrap; }
+  main .services-galeria div {
+    position: relative;
+    box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+    flex-wrap: wrap; }
+    main .services-galeria div img {
+      width: 100%;
+      height: 100%;
+      flex-wrap: wrap; }
+    main .services-galeria div a:hover {
+      background-color: #003a00;
+      color: white; }
+    main .services-galeria div a h4 {
+      width: 100%;
+      position: absolute;
+      bottom: 50px;
+      color: #003a00;
       background-color: white;
-      font-size: 25px;
-      font-weight: 600; }
-    main .elegirnos .elegirnos-opciones div {
       text-align: center;
-      color: white;
-      margin: 15px; }
-      main .elegirnos .elegirnos-opciones div h4 {
-        border: 2px white solid;
-        font-size: 18px; }
+      transition: 1.5s; }
+
+main .garantia {
+  width: 100%;
+  height: 100%;
+  background-color: #003a00;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column; }
+  main .garantia h3 {
+    background-color: white;
+    color: #003a00;
+    margin-top: 30px; }
+  main .garantia p {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+
+/*PAG UNETEALEQUIPO*/
+.equipo {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../img/equipodetrabajo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light;
+  background-color: rgba(1, 1, 1, 0.73);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .equipo h2 {
+    text-align: center;
+    color: bisque; }
+  .equipo ul li {
+    color: bisque;
+    margin: 30px; }
+
+.equipo-completo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  background-color: rgba(54, 53, 53, 0.886); }
+  .equipo-completo .equipo-titulo {
+    text-align: center;
+    color: rgba(54, 53, 53, 0.886);
+    color: bisque; }
+  .equipo-completo .equipo-formulario {
+    margin-left: 50px;
+    color: bisque; }
+
+/*PAg CONTACTO-------------*/
+.contacto-titulo {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #636363; }
+  .contacto-titulo p {
+    font-size: 20px; }
+
+.contacto-formulario {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #636363;
+  background-color: black; }
+  .contacto-formulario .contacto-form {
+    order: 2; }
+  .contacto-formulario .contacto-datos {
+    margin-left: 40px; }
+    .contacto-formulario .contacto-datos div h4 img {
+      background-color: #636363; }
+
+.contacto-ubicacion {
+  background-color: black;
+  text-align: center; }
 
 footer {
   width: 100%;
@@ -188,8 +433,13 @@ footer {
       flex-direction: column; }
       footer .footer-mapa div a {
         color: goldenrod; }
+  footer .footer-seguinos img {
+    background-color: darkgoldenrod; }
   footer .footer-logo a img {
-    background-color: black; }
+    background-color: black;
+    transition: 0.5s; }
+    footer .footer-logo a img:hover {
+      transform: rotateX(360deg); }
 
 @media screen and (max-width: 1220px) {
   .elegirnos {
@@ -201,6 +451,12 @@ footer {
       display: none; }
     .elegirnos .elegirnos-opciones h3 {
       margin-top: 30px; } }
+
+@media screen and (max-width: 1000px) {
+  .services-empleados {
+    grid-template-columns: 1fr; }
+  .services-galeria {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 945px) {
   header {
@@ -224,17 +480,16 @@ footer {
       .elegirnos .elegirnos-opciones div h4 {
         margin: 30px; }
       .elegirnos .elegirnos-opciones div p {
-        display: none; } }
-
-footer {
-  height: auto;
-  flex-direction: column;
-  justify-content: space-around; }
-  footer .footer-seguinos {
-    margin-top: 20px;
-    order: 3; }
-  footer .footer-ubicacion {
-    order: 4; }
+        display: none; }
+  footer {
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .footer-ubicacion {
+      order: 4; }
+    footer .footer-seguinos {
+      margin-top: 20px;
+      order: 3; } }
 
 @media screen and (max-width: 680px) {
   header h1 {
@@ -272,7 +527,21 @@ footer {
     nav ul {
       display: none; }
       nav ul li a {
-        color: darkgoldenrod; } }
+        color: darkgoldenrod; }
+  /*Page comofunciona*/
+  main .funcionamiento h2 {
+    font-size: 40px; }
+  main .funcionamiento p {
+    font-size: 20px;
+    text-align: center; }
+  main .pasos .pasos-numeros {
+    grid-template-columns: 1fr; }
+    main .pasos .pasos-numeros div ul {
+      text-align: center; }
+  main .seguridad {
+    grid-template-columns: 1fr; }
+    main .seguridad .seguridad-items {
+      text-align: center; } }
 
 @media screen and (max-width: 600px) {
   main .hero .hero-primero {
@@ -289,5 +558,6 @@ footer {
       font-size: 25px; }
   main .hero .hero-segundo {
     display: none; }
-  header a img {
-    width: 170px; } }
+  /*pag servicios*/
+  .services-galeria {
+    grid-template-columns: 1fr; } }

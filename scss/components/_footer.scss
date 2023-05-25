@@ -14,9 +14,7 @@ footer {
             img{
                 background-color: darkgoldenrod;
             }
-            p{
-    
-            }
+            
         }
 
 
@@ -27,9 +25,7 @@ footer {
         div{
             display: flex;
             flex-direction: column;
-            h4{
-
-            }
+            
             a{
                 color: goldenrod;
 
@@ -38,9 +34,7 @@ footer {
 
     }
     .footer-seguinos{
-        h4{
-
-        }
+        
         img{
             background-color:  darkgoldenrod;
             
@@ -52,7 +46,7 @@ footer {
             img{
                 background-color: black;
                 transition: 0.5s;
-                &:hover:{
+                &:hover{
                     transform: rotateX(360deg);
                 }
 

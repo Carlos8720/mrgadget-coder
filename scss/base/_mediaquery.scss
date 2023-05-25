@@ -20,18 +20,19 @@
 }
 
 
-@media screen and (max-width:1000px) {
-    .services {
-        .services-empleados {
-            grid-template-columns: 1fr;
-        }
-    }
+@media  screen and (max-width: 1000px){
 
+    .services-empleados {
+        
+        grid-template-columns: 1fr;
+    }
+    
     .services-galeria {
         grid-template-columns: repeat(2, 1fr);
     }
-
+    
 }
+
 
 
 
@@ -85,23 +86,23 @@
             }
         }
     }
-}
 
-footer {
-    height: auto;
-    flex-direction: column;
-    justify-content: space-around;
+    footer {
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
 
-    .footer-ubicacion {
-        order: 4;
+        .footer-ubicacion {
+            order: 4;
+        }
+
+        .footer-seguinos {
+            margin-top: 20px;
+            order: 3;
+        }
+
+
     }
-
-    .footer-seguinos {
-        margin-top: 20px;
-        order: 3;
-    }
-
-
 }
 
 
@@ -254,82 +255,4 @@ footer {
     .services-galeria {
         grid-template-columns: 1fr;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    header a img {
-        width: 170px;
-    }
-
-
 }
