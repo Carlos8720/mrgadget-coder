@@ -1,0 +1,11 @@
+//* VARIABLES 
+$color-principal:black;
+$color-secunadario: goldenrod; 
+
+@mixin flex ($flex, $justify, $align) {
+    display : $flex;
+    justify-content: $justify;
+    align-items: $align;
+    
+}
+

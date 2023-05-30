@@ -13,8 +13,8 @@ header {
   height: 30vh;
   background-color: black;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   flex-direction: row-reverse; }
   header h1 {
     color: goldenrod;
@@ -31,7 +31,7 @@ header {
 nav {
   width: 100%;
   height: 30px;
-  background-color: darkgoldenrod; }
+  background-color: goldenrod; }
   nav h2 {
     display: none; }
   nav input {
@@ -99,7 +99,7 @@ nav {
   .servicios .servicios-titulo h2 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: darkgoldenrod;
+    background-color: goldenrod;
     margin-bottom: 10px;
     color: black;
     font-weight: 700;
@@ -137,7 +137,7 @@ nav {
       text-decoration: none;
       transition: 0.5s; }
       .servicios .servicios-tipos div a:hover {
-        color: darkgoldenrod; }
+        color: goldenrod; }
 
 /*section elegirnos*/
 .elegirnos {
@@ -172,8 +172,8 @@ nav {
       font-size: 18px; }
 
 /*PAGE COMOFUNCIONA----------------*/
-main {
-  /*section pasos*/ }
+
+  /*section pasos*/ 
   main .funcionamiento {
     background-image: url(../img/comofuncionapage.png);
     background-color: #323232;
@@ -185,10 +185,9 @@ main {
     background-position: center;
     color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: space-evenly; }
+    flex-direction: column; }
     main .funcionamiento h2 {
       font-weight: 600;
       font-size: 50px;
@@ -223,7 +222,7 @@ main {
         list-style-type: none;
         margin-bottom: 30px; }
       main .pasos .pasos-numeros div a {
-        color: darkgoldenrod;
+        color: goldenrod;
         border: 2px black solid;
         font-size: 20px;
         padding: 2px;
@@ -239,7 +238,7 @@ main {
 
 /*SECTION SEGURIDAD*/
 .seguridad {
-  background-color: darkgoldenrod;
+  background-color: goldenrod;
   margin-top: 20px;
   width: 100%;
   height: 100%;
@@ -264,46 +263,45 @@ main .carrusel {
       height: 400px;
       object-fit: cover; }
 
-main .services h3 {
-  text-align: center;
-  margin-top: 20px;
-  font-weight: 600;
-  color: #003a00; }
-
-main .services .services-empleados {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 50px; }
-  main .services .services-empleados .services-empleada {
+main .services {
+  width: 100%; }
+  main .services h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #003a00; }
+  main .services .services-empleados {
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px; }
+    main .services .services-empleados .services-empleada {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+    main .services .services-empleados h4 {
+      text-align: center;
+      color: #003a00; }
+    main .services .services-empleados div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0 30px 30px; }
+  main .services .services-mantenimiento {
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-  main .services .services-empleados h4 {
-    text-align: center;
-    color: #003a00; }
-  main .services .services-empleados div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0 30px 30px; }
-
-main .services .services-mantenimiento {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-  main .services .services-mantenimiento h4 {
-    text-align: center;
-    color: #003a00; }
-  main .services .services-mantenimiento div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 0 30px 20px; }
+    main .services .services-mantenimiento h4 {
+      text-align: center;
+      color: #003a00; }
+    main .services .services-mantenimiento div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px 0 30px 20px; }
 
 main .services-galeria {
   width: 100%;
@@ -371,6 +369,7 @@ main .garantia {
 
 .equipo-completo {
   width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: 40% 60%;
   align-items: center;
@@ -382,15 +381,30 @@ main .garantia {
   .equipo-completo .equipo-formulario {
     margin-left: 50px;
     color: bisque; }
+  .equipo-completo div input {
+    background-color: rgba(108, 103, 103, 0.886);
+    color: bisque; }
+  .equipo-completo div #labor {
+    background-color: bisque;
+    color: rgba(54, 53, 53, 0.886);
+    font-weight: 600; }
+  .equipo-completo div #comentarios {
+    background-color: bisque;
+    color: rgba(54, 53, 53, 0.886); }
+  .equipo-completo div #boton {
+    background-color: bisque;
+    color: rgba(54, 53, 53, 0.886);
+    font-weight: 600;
+    padding: 2px; }
 
 /*PAg CONTACTO-------------*/
 .contacto-titulo {
   width: 100%;
   height: 200px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: black;
   color: #636363; }
   .contacto-titulo p {
@@ -403,6 +417,19 @@ main .garantia {
   background-color: black; }
   .contacto-formulario .contacto-form {
     order: 2; }
+    .contacto-formulario .contacto-form div {
+      margin: 5px; }
+      .contacto-formulario .contacto-form div input {
+        background-color: #636363;
+        color: black; }
+      .contacto-formulario .contacto-form div #servicios {
+        background-color: #636363;
+        font-weight: 600; }
+      .contacto-formulario .contacto-form div #contacto-comentario {
+        background-color: #636363;
+        color: black; }
+      .contacto-formulario .contacto-form div #contacto-boton {
+        font-weight: 600; }
   .contacto-formulario .contacto-datos {
     margin-left: 40px; }
     .contacto-formulario .contacto-datos div h4 img {
@@ -418,14 +445,14 @@ footer {
   background-color: black;
   color: goldenrod;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap; }
   footer .footer-ubicacion div {
     display: flex;
     margin: 30px; }
     footer .footer-ubicacion div img {
-      background-color: darkgoldenrod; }
+      background-color: goldenrod; }
   footer .footer-mapa {
     margin-right: 30px; }
     footer .footer-mapa div {
@@ -434,7 +461,7 @@ footer {
       footer .footer-mapa div a {
         color: goldenrod; }
   footer .footer-seguinos img {
-    background-color: darkgoldenrod; }
+    background-color: goldenrod; }
   footer .footer-logo a img {
     background-color: black;
     transition: 0.5s; }
@@ -454,7 +481,12 @@ footer {
 
 @media screen and (max-width: 1000px) {
   main .services .services-empleados {
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    width: 100%; }
+    main .services .services-empleados .services-empleada {
+      width: 100%; }
+    main .services .services-empleados .services-mantenimiento {
+      width: 100%; }
   main .services-galeria {
     grid-template-columns: repeat(2, 1fr); } }
 
@@ -467,6 +499,26 @@ footer {
       font-size: 25px; }
     header a {
       order: -1; } }
+
+@media screen and (max-width: 830px) {
+  main .contacto-titulo {
+    height: 100px; }
+  main .contacto-formulario {
+    grid-template-columns: 100%;
+    text-align: center; }
+    main .contacto-formulario .contacto-datos {
+      order: 2;
+      margin-top: 30px; } }
+
+@media screen and (max-width: 780px) {
+  main .equipo-completo {
+    grid-template-columns: 100%; }
+    main .equipo-completo .equipo-titulo p {
+      background-color: bisque;
+      color: rgba(54, 53, 53, 0.886);
+      font-weight: 600; }
+    main .equipo-completo .equipo-formulario {
+      text-align: center; } }
 
 @media screen and (max-width: 745px) {
   main .elegirnos .elegirnos-opciones {
@@ -505,7 +557,7 @@ footer {
     height: 100%; }
     nav h2 {
       display: block;
-      color: darkgoldenrod; }
+      color: goldenrod; }
     nav input {
       display: none; }
       nav input:checked ~ ul {
@@ -513,7 +565,7 @@ footer {
         padding: 50px; }
     nav .menu-button {
       box-sizing: border-box;
-      color: darkgoldenrod;
+      color: goldenrod;
       text-align: center;
       line-height: 6vh;
       display: inline-block;
@@ -527,7 +579,7 @@ footer {
     nav ul {
       display: none; }
       nav ul li a {
-        color: darkgoldenrod; }
+        color: goldenrod; }
   /*Page comofunciona*/
   main .funcionamiento h2 {
     font-size: 40px; }
@@ -544,8 +596,8 @@ footer {
       text-align: center; } }
 
 @media screen and (max-width: 600px) {
-  main {
-    /*pag servicios*/ }
+  
+    /*pag servicios*/ 
     main .hero .hero-primero {
       text-align: center;
       display: flex;

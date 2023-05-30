@@ -1,190 +1,190 @@
 /*-----------index----------------*/
 
-    .hero {
-        background-image: url(../img/orden.jpg);
-        width: 100%;
-        height: 70vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+.hero {
+    background-image: url(../img/orden.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
-        .hero-primero {
-            margin-left: 25px;
+    .hero-primero {
+        margin-left: 25px;
 
-            h2 {
-                font-family: 'Poppins', sans-serif;
-                font-weight: 500;
-                font-size: 30px;
-                font-style: italic;
-            }
-
-            p {
-                font-family: 'Poppins', sans-serif;
-                font-weight: 400;
-                font-size: 20px;
-            }
-
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 30px;
+            font-style: italic;
         }
 
-        .hero-segundo {
-            margin-left: 25px;
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+        }
 
-            h2 {
-                font-family: 'Poppins', sans-serif;
-                font-weight: 500;
-                font-size: 30px;
-                font-style: italic;
-            }
+    }
 
-            p {
-                font-family: 'Poppins', sans-serif;
-                font-weight: 400;
-                font-size: 20px;
-            }
+    .hero-segundo {
+        margin-left: 25px;
 
-            ul {
-                list-style-position: inside;
-                list-style-type: circle;
-                font-family: 'Poppins', sans-serif;
-                font-weight: lighter;
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 30px;
+            font-style: italic;
+        }
 
-                
-            }
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-position: inside;
+            list-style-type: circle;
+            font-family: 'Poppins', sans-serif;
+            font-weight: lighter;
+
 
         }
 
     }
 
+}
 
 
 
 
-    .servicios {
-        text-align: center;
-        flex-wrap: wrap;
 
-        .servicios-titulo {
-            h2 {
-                font-family: 'Poppins', sans-serif;
-                text-align: center;
-                background-color: darkgoldenrod;
-                margin-bottom: 10px;
-                color: black;
-                font-weight: 700;
-                font-size: 20px;
+.servicios {
+    text-align: center;
+    flex-wrap: wrap;
+
+    .servicios-titulo {
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background-color: $color-secunadario;
+            margin-bottom: 10px;
+            color: $color-principal;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        a {
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(99, 99, 99);
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 3px;
+            padding: 2px;
+            font-weight: 600;
+            font-size: 20px;
+            transition: 1s;
+
+            &:hover {
+                padding: 3px;
+                font-size: 23px;
+            }
+        }
+    }
+
+
+    .servicios-tipos {
+        div {
+            width: 230px;
+            border: 2px rgb(99, 99, 99) solid;
+            text-align: center;
+            display: inline-block;
+            margin: 10px 20px 5px 20px;
+            box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
+
+            img {
+                width: 100%;
             }
 
             a {
-                width: 100%;
-                font-family: 'Poppins', sans-serif;
-                background-color: rgb(99, 99, 99);
-                color: white;
-                text-decoration: none;
-                text-align: center;
-                border-radius: 3px;
-                padding: 2px;
-                font-weight: 600;
+                color: rgb(99, 99, 99);
                 font-size: 20px;
-                transition: 1s;
+                font-weight: 600;
+                text-decoration: none;
+                transition: 0.5s;
 
                 &:hover {
-                    padding: 3px;
-                    font-size: 23px;
-                }
-            }
-        }
-
-
-        .servicios-tipos {
-            div {
-                width: 230px;
-                border: 2px rgb(99, 99, 99) solid;
-                text-align: center;
-                display: inline-block;
-                margin: 10px 20px 5px 20px;
-                box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
-                -webkit-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
-                -moz-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.75);
-
-                img {
-                    width: 100%;
-                }
-
-                a {
-                    color: rgb(99, 99, 99);
-                    font-size: 20px;
-                    font-weight: 600;
-                    text-decoration: none;
-                    transition: 0.5s;
-
-                    &:hover {
-                        color: darkgoldenrod;
-                    }
+                    color: $color-secunadario;
                 }
             }
         }
     }
+}
 
-    /*section elegirnos*/
+/*section elegirnos*/
 
 
-    .elegirnos {
-        width: 100%;
-        font-family: 'Poppins', sans-serif;
-        background-color: rgb(99, 99, 99);
-        display: grid;
-        grid-template-columns: 10% 50% 40%;
-        align-items: center;
-        margin-top: 20px;
+.elegirnos {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(99, 99, 99);
+    display: grid;
+    grid-template-columns: 10% 50% 40%;
+    align-items: center;
+    margin-top: 20px;
 
-        .elegirnos-titulo {
-            h2 {
-                color: rgb(99, 99, 99);
-                background-color: white;
-                text-align: center;
-                font-size: 30px;
-                font-weight: 600;
-            }
+    .elegirnos-titulo {
+        h2 {
+            color: rgb(99, 99, 99);
+            background-color: white;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+
+    .elegirnos-imagen {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .elegirnos-opciones {
+        h3 {
+            text-align: center;
+            color: rgb(99, 99, 99);
+            background-color: white;
+            font-size: 25px;
+            font-weight: 600;
         }
 
-        .elegirnos-imagen {
-            img {
-                width: 100%;
-                object-fit: cover;
-            }
-        }
+        div {
+            text-align: center;
+            color: white;
+            margin: 15px;
 
-        .elegirnos-opciones {
-            h3 {
-                text-align: center;
-                color: rgb(99, 99, 99);
-                background-color: white;
-                font-size: 25px;
-                font-weight: 600;
+            h4 {
+                border: 2px white solid;
+                font-size: 18px;
             }
 
-            div {
-                text-align: center;
-                color: white;
-                margin: 15px;
-
-                h4 {
-                    border: 2px white solid;
-                    font-size: 18px;
-                }
-
-                
-            }
 
         }
 
     }
+
+}
 
 
 
@@ -201,11 +201,10 @@ main {
         background-size: cover;
         background-position: center;
         color: white;
-        display: flex;
+        @include flex (flex, center, center);
+
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-evenly;
+
 
         h2 {
             font-weight: 600;
@@ -231,7 +230,7 @@ main {
 
             &:hover {
                 color: white;
-                background-color: black;
+                background-color: $color-principal;
             }
 
         }
@@ -254,34 +253,34 @@ main {
             flex-wrap: wrap;
 
             div {
-                
 
-                
+
+
 
                 ul {
                     list-style-type: none;
                     margin-bottom: 30px;
 
-                    
+
                 }
 
                 a {
-                    color: darkgoldenrod;
-                    border: 2px black solid;
+                    color: $color-secunadario;
+                    border: 2px $color-principal solid;
                     font-size: 20px;
                     padding: 2px;
                     transition: 1s;
                     border-radius: 10px;
 
                     &:hover {
-                        background-color: black;
+                        background-color: $color-principal;
                         padding: 3px;
                         font-size: 25px;
                         font-weight: 400;
                     }
 
                     &:active {
-                        background-color: black;
+                        background-color: $color-principal;
                     }
                 }
             }
@@ -294,7 +293,7 @@ main {
 /*SECTION SEGURIDAD*/
 
 .seguridad {
-    background-color: darkgoldenrod;
+    background-color: $color-secunadario;
     margin-top: 20px;
     width: 100%;
     height: 100%;
@@ -313,9 +312,9 @@ main {
         div {
             margin: 1rem;
 
-           
 
-            
+
+
         }
     }
 }
@@ -345,6 +344,8 @@ main {
     }
 
     .services {
+        width: 100%;
+
         h3 {
             text-align: center;
             margin-top: 20px;
@@ -361,10 +362,9 @@ main {
 
             .services-empleada {
                 width: 100%;
-                display: flex;
+                @include flex(flex, center, center);
                 flex-direction: column;
-                align-items: center;
-                justify-content: center;
+
             }
 
             h4 {
@@ -374,20 +374,19 @@ main {
             }
 
             div {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flex (flex, center, center);
+
                 margin: 10px 0 30px 30px;
 
-                
 
-                
+
+
             }
         }
 
         .services-mantenimiento {
             width: 100%;
-            display: flex;
+
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -404,9 +403,9 @@ main {
                 align-items: center;
                 margin: 0px 0 30px 20px;
 
-                
 
-                
+
+
             }
         }
 
@@ -482,106 +481,150 @@ main {
 /*PAG UNETEALEQUIPO*/
 
 
-    .equipo {
-        width: 100%;
-        height: 70vh;
-        background-image: url(../img/equipodetrabajo.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: soft-light;
-        background-color: rgba(1, 1, 1, 0.73);
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+.equipo {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/equipodetrabajo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(1, 1, 1, 0.73);
+    @include flex(flex, space-evenly, center);
 
 
-        h2 {
-            text-align: center;
-            color: bisque;
 
-        }
+    h2 {
+        text-align: center;
+        color: bisque;
 
-        ul {
-            li {
-                color: bisque;
-                margin: 30px;
-
-            }
-        }
     }
 
-    .equipo-completo {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 40% 60%;
-        align-items: center;
-        background-color: rgba(54, 53, 53, 0.886);
-
-        .equipo-titulo {
-            text-align: center;
-            color: rgba(54, 53, 53, 0.886);
+    ul {
+        li {
             color: bisque;
+            margin: 30px;
 
-            
-
-            
-
-        }
-
-        .equipo-formulario {
-            margin-left: 50px;
-            color: bisque;
         }
     }
+}
+
+.equipo-completo {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    background-color: rgba(54, 53, 53, 0.886);
+    
+
+    .equipo-titulo {
+        text-align: center;
+        color: rgba(54, 53, 53, 0.886);
+        color: bisque;
+
+
+
+
+
+    }
+
+    .equipo-formulario {
+        margin-left: 50px;
+        color: bisque;
+    }
+    div {
+        input{
+            background-color:rgba(108, 103, 103, 0.886) ;
+            color: bisque;
+        }
+        #labor {
+            background-color:bisque;
+            color:  rgba(54, 53, 53, 0.886);
+            font-weight: 600;
+        }
+        #comentarios {
+            background-color: bisque;
+            color:  rgba(54, 53, 53, 0.886);
+        }
+        #boton {
+            background-color: bisque;
+            color:  rgba(54, 53, 53, 0.886);
+            font-weight: 600;
+            padding: 2px;
+        }
+        
+    }
+}
 
 
 /*PAg CONTACTO-------------*/
 
 
-    .contacto-titulo {
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: black;
-        color: rgb(99, 99, 99);
+.contacto-titulo {
+    width: 100%;
+    height: 200px;
+    @include flex (flex, center, center);
 
-        
+    flex-direction: column;
 
-        p {
-            font-size: 20px;
+    background-color: black;
+    color: rgb(99, 99, 99);
 
-        }
+
+
+    p {
+        font-size: 20px;
+
     }
+}
 
-    .contacto-formulario {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        color:rgb(99, 99, 99) ;
-        background-color: black;
-        .contacto-form {
-            order: 2;
-        }
+.contacto-formulario {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: rgb(99, 99, 99);
+    background-color: $color-principal;
 
-        .contacto-datos {
-            margin-left: 40px;
-            div {
-                h4 {
-                    img {
-                        background-color: rgb(99, 99, 99);
-                    }
-                }
-
-                
+    .contacto-form {
+        order: 2;
+        div{
+            margin: 5px;
+            input {
+                background-color:rgb(99, 99, 99) ;
+                color: $color-principal;
             }
+            #servicios {
+                background-color:rgb(99, 99, 99);
+                font-weight: 600;
+            }
+            #contacto-comentario {
+                background-color: rgb(99, 99, 99);
+                color: $color-principal;
+            }
+            #contacto-boton{
+                font-weight: 600;
+            }
+                
         }
     }
 
-    .contacto-ubicacion {
-        background-color: black;
-        text-align: center;
-        
+    .contacto-datos {
+        margin-left: 40px;
+
+        div {
+            h4 {
+                img {
+                    background-color: rgb(99, 99, 99);
+                }
+            }
+
+
+        }
     }
+}
+
+.contacto-ubicacion {
+    background-color: black;
+    text-align: center;
+
+}
