@@ -263,45 +263,45 @@ main .carrusel {
       height: 400px;
       object-fit: cover; }
 
-main .services {
-  width: 100%; }
-  main .services h3 {
-    text-align: center;
-    margin-top: 20px;
-    font-weight: 600;
-    color: #003a00; }
-  main .services .services-empleados {
+main .services h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #003a00; }
+
+main .services .services-empleados {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; }
+  main .services .services-empleados .services-empleada {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 50px; }
-    main .services .services-empleados .services-empleada {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column; }
-    main .services .services-empleados h4 {
-      text-align: center;
-      color: #003a00; }
-    main .services .services-empleados div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 10px 0 30px 30px; }
-  main .services .services-mantenimiento {
-    width: 100%;
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center; }
-    main .services .services-mantenimiento h4 {
-      text-align: center;
-      color: #003a00; }
-    main .services .services-mantenimiento div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0px 0 30px 20px; }
+    flex-direction: column; }
+  main .services .services-empleados h4 {
+    text-align: center;
+    color: #003a00; }
+  main .services .services-empleados div {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+main .services .services-mantenimiento {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  main .services .services-mantenimiento h4 {
+    text-align: center;
+    color: #003a00; }
+  main .services .services-mantenimiento div {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 main .services-galeria {
   width: 100%;
@@ -481,7 +481,7 @@ footer {
 
 @media screen and (max-width: 1000px) {
   main .services .services-empleados {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     width: 100%; }
     main .services .services-empleados .services-empleada {
       width: 100%; }

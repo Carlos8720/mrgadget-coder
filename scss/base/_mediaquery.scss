@@ -29,7 +29,7 @@
     main {
         .services {
             .services-empleados {
-                grid-template-columns: 1fr;
+                flex-direction: column;
                 width: 100%;
                 .services-empleada{
                     width: 100%;
