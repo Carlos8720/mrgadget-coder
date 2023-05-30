@@ -172,8 +172,8 @@ nav {
       font-size: 18px; }
 
 /*PAGE COMOFUNCIONA----------------*/
-
-  /*section pasos*/ 
+main {
+  /*section pasos*/ }
   main .funcionamiento {
     background-image: url(../img/comofuncionapage.png);
     background-color: #323232;
@@ -319,9 +319,6 @@ main .services-galeria {
       width: 100%;
       height: 100%;
       flex-wrap: wrap; }
-    main .services-galeria div a:hover {
-      background-color: #003a00;
-      color: white; }
     main .services-galeria div a h4 {
       width: 100%;
       position: absolute;
@@ -330,6 +327,9 @@ main .services-galeria {
       background-color: white;
       text-align: center;
       transition: 1.5s; }
+      main .services-galeria div a h4:hover {
+        background-color: #003a00;
+        color: white; }
 
 main .garantia {
   width: 100%;
@@ -596,8 +596,8 @@ footer {
       text-align: center; } }
 
 @media screen and (max-width: 600px) {
-  
-    /*pag servicios*/ 
+  main {
+    /*pag servicios*/ }
     main .hero .hero-primero {
       text-align: center;
       display: flex;
