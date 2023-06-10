@@ -4,24 +4,26 @@ header {
     background-color: $color-principal;
     @include flex (flex, space-evenly, center);
     flex-direction: row-reverse;
-    
 
 
-    
-    h1{
+
+
+    h1 {
         color: $color-secunadario;
         font-weight: 700;
         font-size: 35px;
         font-style: italic;
-        border: 4px rgb(99, 99, 99) solid;
+        border: 4px nth($colores, 1) solid;
         padding: 5px;
     }
-    a{
+
+    a {
         transition: 1s;
-        &:hover{
+
+        &:hover {
             transform: rotateY(360deg);
         }
-        
+
     }
 }
 
@@ -29,28 +31,34 @@ nav {
     width: 100%;
     height: 30px;
     background-color: $color-secunadario;
-    h2{
-        display: none;
-    }   
-    input{
+
+    h2 {
         display: none;
     }
-    .menu-button{
+
+    input {
         display: none;
     }
-    ul{
+
+    .menu-button {
+        display: none;
+    }
+
+    ul {
         display: flex;
         justify-content: space-evenly;
         list-style: none;
-        li{
-            a{
+
+        li {
+            a {
                 text-decoration: none;
-                color:$color-principal;
+                color: $color-principal;
                 font-weight: 700;
                 font-size: 20px;
-                transition: 1s; 
-                &:hover{
-                    color:rgb(99, 99, 99)
+                transition: 1s;
+
+                &:hover {
+                    color: nth($colores, 1);
                 }
             }
         }
